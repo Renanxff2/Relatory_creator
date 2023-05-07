@@ -11,9 +11,9 @@ import com.itextpdf.text.Paragraph
 import com.itextpdf.text.pdf.PdfWriter
 import java.io.FileOutputStream
 import java.text.SimpleDateFormat
+import java.util.Calendar
 import java.util.Date
 import java.util.Locale
-import java.util.TimeZone
 
 class MainActivity : AppCompatActivity() {
 
@@ -42,9 +42,9 @@ class MainActivity : AppCompatActivity() {
             } else {
                 // Adicionando o texto à pré-visualização do relatório
                 val formatter = SimpleDateFormat("dd/MM/yyyy HH:mm:ss", Locale.getDefault())
-                formatter.timeZone = TimeZone.getTimeZone("GMT-03:00") // Fuso horário de Brasília
-                val currentTime = formatter.format(Date())
-                txtPreviewContent.append("$currentTime - $inputText\n")
+                val currentTime = Calendar.getInstance().time
+                val formattedTime = formatter.format(currentTime)
+                txtPreviewContent.append("$formattedTime - $inputText\n")
                 editText.text.clear()
             }
         }
