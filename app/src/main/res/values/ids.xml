@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="end_day_button" type="id" />
+    <item name="entries_layout" type="id" />
+    <item name="entries_scroll_view" type="id" />
+    <item name="add_entry_button" type="id" />
+    <item name="new_entry" type="id" />
+    <item name="current_date" type="id" />
+    <item name="diary_edit_text" type="id" />
+    <item name="save_button" type="id" />
+    <item name="transcription_text_view" type="id" />
+    <item name="start_button" type="id" />
+    <item name="stop_button" type="id" />
+</resources>

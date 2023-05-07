@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Relatory Creator</string>
+    <string name="dd_mm_aaaa">DD/MM/AAAA</string>
+    <string name="adicione_uma_entrada_de_relatorio">Adicione uma entrada de relatorio</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="finalizar_o_dia">Finalizar o Dia</string>
+    <string name="criar_relat_rio">Criar Relatório</string>
+    <string name="digite_informa_es_do_dia_aqui">Digite informações do dia aqui</string>
+    <string name="pr_visualiza_o_do_relat_rio">Pré-visualização do relatório:</string>
+</resources>
