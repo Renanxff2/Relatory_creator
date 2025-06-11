@@ -1,1 +1,9 @@
-Report_Creator é um aplicativo simples que permite aos usuários criar relatórios personalizados a partir das informações fornecidas por eles mesmos.
+🛠️ Objetivos do projeto
+O objetivo do Relatory_creator é oferecer uma solução rápida e prática para criar relatórios personalizados, ideal para uso acadêmico, profissional ou pessoal.
+
+📬 Contato
+Caso queira sugerir melhorias, enviar feedback ou saber mais sobre meus outros projetos:
+
+💻 GitHub: https://github.com/Renanxff2
+
+📫 Email: renanvianabezerra987@gmail.com
